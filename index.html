@@ -1,0 +1,136 @@
+<html>
+	<meta charset="utf-8">
+	<head>
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<!-- jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<!-- Latest compiled JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/chatbox1.css">
+	</head>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-12" id="painel_top">
+				<button type="button" class="glyphicon glyphicon-plus">
+				</button>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<div class="row">
+					<div class="col-md-4">
+						<table class="table" id="tabela_conversas">
+							<thead>
+								<tr>
+									<th>
+										Conversas
+									</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>
+										<p class="nome_util" data-letters= "MA" >Manel </p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<p class="nome_util" data-letters= "NT" >Nuno Tavares
+										<p id="conversa_util">Conversa do utilizador </p>
+										</p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<p class="nome_util" data-letters= "AA" >António Avelar</p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<p class="nome_util" data-letters= "MA" >Maria Almeida</p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<p class="nome_util" data-letters= "JB" >Jorge Brito</p>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+					<div class="col-md-8" id="div_chat">
+						<div class="row msg_container base_sent">
+							<div class="col-md-10 col-xs-10">
+								<div class="messages msg_sent">
+									<p>that mongodb thing looks good, huh?
+										tiny master db, and huge document store
+									</p>
+									<time datetime="2009-11-13T20:00">Timothy • 51 min</time>
+								</div>
+							</div>
+						</div>
+						<div class="row msg_container base_receive">
+							<div class="col-md-10 col-xs-10">
+								<div class="messages msg_receive">
+									<p>that mongodb thing looks good, huh?
+										tiny master db, and huge document store
+									</p>
+									<time datetime="2009-11-13T20:00">Timothy • 51 min</time>
+								</div>
+							</div>
+						</div>
+						<div class="row msg_container base_receive">
+							<div class="col-xs-10 col-md-10">
+								<div class="messages msg_receive">
+									<p>that mongodb thing looks good, huh?
+										tiny master db, and huge document store
+									</p>
+									<time datetime="2009-11-13T20:00">Timothy • 51 min</time>
+								</div>
+							</div>
+						</div>
+						<div class="row msg_container base_sent">
+							<div class="col-xs-10 col-md-10">
+								<div class="messages msg_sent">
+									<p>that mongodb thing looks good, huh?
+										tiny master db, and huge document store
+									</p>
+									<time datetime="2009-11-13T20:00">Timothy • 51 min</time>
+								</div>
+							</div>
+						</div>
+						<div class="row msg_container base_receive">
+							<div class="col-xs-10 col-md-10">
+								<div class="messages msg_receive">
+									<p>that mongodb thing looks good, huh?
+										tiny master db, and huge document store
+									</p>
+									<time datetime="2009-11-13T20:00">Timothy • 51 min</time>
+								</div>
+							</div>
+						</div>
+						<div class="row msg_container base_sent">
+							<div class="col-md-10 col-xs-10 ">
+								<div class="messages msg_sent">
+									<p>that mongodb thing looks good, huh?
+										tiny master db, and huge document store
+									</p>
+									<time datetime="2009-11-13T20:00">Timothy • 51 min</time>
+								</div>
+							</div>
+						</div>
+						<div class="panel-footer">
+							<div class="input-group">
+								<input id="btn-input" type="text" class="form-control input-lg chat_input" placeholder="Escreva aqui a sua mensagem..." />
+								<span class="input-group-btn">
+								<button class="btn btn-primary btn-lg" id="btn-chat">Enviar</button>
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</html>
